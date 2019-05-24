@@ -213,4 +213,4 @@ def kml2pykml():
                 pass #variable was not defined
             else:
                 f.close
-    print write_python_script_for_kml_document(doc)
+    print(write_python_script_for_kml_document(doc))
